@@ -15,6 +15,8 @@
 		5C8266C01E56A23D00A6F64D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8266BE1E56A23D00A6F64D /* LaunchScreen.storyboard */; };
 		5C8266CB1E56A23D00A6F64D /* TitleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8266CA1E56A23D00A6F64D /* TitleScrollViewTests.m */; };
 		5C8266D61E56A23D00A6F64D /* TitleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8266D51E56A23D00A6F64D /* TitleScrollViewUITests.m */; };
+		5C8266E81E56A6F800A6F64D /* TitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8266E71E56A6F800A6F64D /* TitleLabel.m */; };
+		5C8266EF1E56D08800A6F64D /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8266EE1E56D08800A6F64D /* BaseTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		5C8266D11E56A23D00A6F64D /* TitleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8266D51E56A23D00A6F64D /* TitleScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleScrollViewUITests.m; sourceTree = "<group>"; };
 		5C8266D71E56A23D00A6F64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C8266E61E56A6F800A6F64D /* TitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleLabel.h; path = ../TitleLabel.h; sourceTree = "<group>"; };
+		5C8266E71E56A6F800A6F64D /* TitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleLabel.m; path = ../TitleLabel.m; sourceTree = "<group>"; };
+		5C8266ED1E56D08800A6F64D /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		5C8266EE1E56D08800A6F64D /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				5C8266B41E56A23D00A6F64D /* AppDelegate.m */,
 				5C8266B61E56A23D00A6F64D /* ViewController.h */,
 				5C8266B71E56A23D00A6F64D /* ViewController.m */,
+				5C8266ED1E56D08800A6F64D /* BaseTableViewController.h */,
+				5C8266EE1E56D08800A6F64D /* BaseTableViewController.m */,
+				5C8266E61E56A6F800A6F64D /* TitleLabel.h */,
+				5C8266E71E56A6F800A6F64D /* TitleLabel.m */,
 				5C8266B91E56A23D00A6F64D /* Main.storyboard */,
 				5C8266BC1E56A23D00A6F64D /* Assets.xcassets */,
 				5C8266BE1E56A23D00A6F64D /* LaunchScreen.storyboard */,
@@ -277,7 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C8266B81E56A23D00A6F64D /* ViewController.m in Sources */,
+				5C8266E81E56A6F800A6F64D /* TitleLabel.m in Sources */,
 				5C8266B51E56A23D00A6F64D /* AppDelegate.m in Sources */,
+				5C8266EF1E56D08800A6F64D /* BaseTableViewController.m in Sources */,
 				5C8266B21E56A23D00A6F64D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
